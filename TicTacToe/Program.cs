@@ -8,10 +8,6 @@ internal class Program
     static string winner = "none";
     private static void Main(string[] args)
     {
-        //char[,] board2 = {{ 'O', 'X', '-' },
-        //                 { 'X', '-', '-' },
-        //                 { '-', '-', '-' }};
-
 
         char[,] board = new char[3, 3];
         for (int i = 0; i < 3; i++)
