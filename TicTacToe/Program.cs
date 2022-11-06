@@ -60,11 +60,6 @@ internal class Program
             }
 
 
-            //Computer_Vs_Computer(board);
-
-            //Human_Vs_Computer(board, 'O');
-
-
             if (winner == "Tie")
             {
                 Console.WriteLine("No Winner, Game is Tie");
